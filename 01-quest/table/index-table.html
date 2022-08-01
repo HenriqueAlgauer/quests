@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Table</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet">
+    
+    <style>
+        body{
+            background-color: #111;
+            color: #fff; 
+            font-family: 'Poppins', sans-serif;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+        }
+        .titulo{
+            text-align: center;
+        }
+        .dados{
+            padding: 5px;
+            background-color: #424250;
+            font-weight: 100;
+        }
+        .cabecalho{
+            font-size: 17px;
+            padding: 5px;
+            font-weight: 500;
+            background-color: #BB86FC;
+        }
+        
+    </style>
+
+</head>
+<!-- 
+    OBS : fiz o CSS interno aqui porque não é muita coisa, ai fica mais fácil 
+ -->
+<body>
+    <h1 class="titulo">Quest 1 - Tabela Estilizada</h1>
+    <div class="container">
+    <table class="table">
+        <tr class="table-row">
+            <th class="cabecalho">Produto</th>
+            <th class="cabecalho">Tamanho</th>
+            <th class="cabecalho">Disponibilidade</th>
+            <th class="cabecalho">Valor</th>
+        </tr>
+        <tr class="table-row">
+            <td class="dados">Botina</td>
+            <td class="dados">42</td>
+            <td class="dados">8</td>
+            <td class="dados">R$ 199,90</td>
+        </tr>
+        <tr class="table-row">
+            <td class="dados">Galocha</td>
+            <td class="dados">40</td>
+            <td class="dados">14</td>
+            <td class="dados">R$ 219,90</td>
+        </tr>
+        <tr class="table-row">
+            <td class="dados">Japona</td>
+            <td class="dados">P</td>
+            <td class="dados">18</td>
+            <td class="dados">R$ 289,90</td>
+        </tr>
+    </table>
+    </div>
+    
+</body>
+</html>
